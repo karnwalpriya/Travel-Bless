@@ -131,19 +131,24 @@ ul {
 
 .column1{
   float: left;
-  width: 30%;
-  padding: 0 10px;
+  width: 32%;
+  padding: 10px 10px;
 }
 
 .row1{
   margin: 0 -5px;
 }
 
-.row1:hover{
+/*.row1:hover{
   content: "";
   display: table;
   clear: both;
-}
+}*/
+
+.row1{
+  content: "";
+  display: table;
+  clear: both;
 
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
